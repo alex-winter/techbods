@@ -1,0 +1,24 @@
+
+.debug {
+	font-family: Courier New;
+	font-size: 1.0em;
+}
+.debug.variable {
+	color: #0000ff;
+	font-weight: bold;
+}
+
+.debug > .normal_text {
+	color: #000;
+	font-weight: normal;
+}
+
+.debug > .integer {
+	color: #ff8000;
+	font-weight: normal;
+}
+
+.debug > .operator {
+	color: #000;
+	font-weight: normal;
+}
